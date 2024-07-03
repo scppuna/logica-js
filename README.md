@@ -1,71 +1,40 @@
-# coding-studying
+# Lógica de Programação Utilizando Javascript.
 
-Desafio 100 Dias de API em .NET: Do Zero ao Deploy!
-Objetivo: Construir uma API completa em .NET em 100 dias, partindo do básico até o deploy em produção, adquirindo habilidades práticas e conhecimento aprofundado.
+Exercícios concedidos pelo Alura.
 
-Formato:
+//Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
 
-Dias 1-10: Fundamentos Essenciais
+let contador = 1;
 
-Configuração do ambiente de desenvolvimento (.NET SDK, IDE)
-Criação do projeto de API (ASP.NET Core Web API)
-Introdução aos conceitos REST (verbos HTTP, códigos de status)
-Modelagem de dados básica (Entity Framework Core)
-Implementação de endpoints CRUD (Create, Read, Update, Delete)
-Testes unitários básicos
-Dias 11-30: Recursos e Melhorias
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
+}
 
-Autenticação e autorização (JWT, Identity)
-Validação de dados (Data Annotations, FluentValidation)
-Tratamento de erros e exceções
-Versionamento de API
-Documentação da API (Swagger/OpenAPI)
-Introdução a padrões de projeto (Repository, Unit of Work)
-Testes de integração
-Dias 31-60: Escalabilidade e Desempenho
+//Crie um contador que começa em 10 e vá até 0 usando um loop while.Mostre cada número.
 
-Cache (Redis, MemoryCache)
-Otimização de consultas (Entity Framework Core)
-Logging e monitoramento (Serilog, Application Insights)
-Mensageria (RabbitMQ, Azure Service Bus)
-Introdução a microsserviços
-Testes de carga e stress
-Dias 61-80: Deploy e DevOps
+let contador = 10;
 
-Configuração de CI/CD (GitHub Actions, Azure DevOps)
-Deploy em ambientes de staging e produção (Azure, AWS, Docker)
-Monitoramento em produção
-Gerenciamento de logs
-Estratégias de rollback
-Dias 81-100: Tópicos Avançados e Desafios
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}
+   
 
-Segurança avançada (OWASP Top 10)
-GraphQL
-gRPC
-Real-time com SignalR
-Integração com serviços externos (APIs de terceiros)
-Desafios personalizados (propostos pela comunidade ou por você)
-Recursos:
 
-Tutoriais e documentação da Microsoft
-Cursos online (Udemy, Pluralsight)
-Livros sobre .NET e desenvolvimento de APIs
-Comunidades online (fóruns, grupos de discussão)
-Mentoria de desenvolvedores experientes
-Avaliação:
+//Crie um programa de contagem regressiva.Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+let contagem = prompt("Digite o número para contagem regressiva");
 
-Crie um repositório no GitHub para documentar seu progresso e código
-Compartilhe seus aprendizados e desafios nas redes sociais com a hashtag #100DiasDeAPINET
-Ao final, apresente sua API em um vídeo ou postagem de blog, destacando os recursos implementados e as lições aprendidas
-Premiação:
+while (contagem >= 0){
+    console.log(contagem);
+    contagem--;
+}
 
-Reconhecimento da comunidade
-Oportunidades de networking
-Certificado de conclusão (opcional)
-Prêmios especiais para os projetos mais criativos e bem executados
-Observações:
+//Crie um programa de contagem progressiva.Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+let numeroMax = prompt("Digite o número para contagem regressiva");
+let contagem = 0;
 
-Adapte o desafio ao seu nível de conhecimento e experiência
-Não hesite em pedir ajuda da comunidade ou de mentores
-Divirta-se e aprenda muito!
-Vamos construir juntos o futuro das APIs em .NET! 🚀
+while (contagem <= numeroMax){
+    console.log(contagem);
+    contagem++;
+}
