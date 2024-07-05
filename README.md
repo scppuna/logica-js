@@ -4,7 +4,8 @@
 
 1) Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
 
-```let contador = 1;
+```
+let contador = 1;
 while (contador <= 10) {
     console.log(contador);
     contador++;
@@ -12,7 +13,8 @@ while (contador <= 10) {
 ```
 2) Crie um contador que começa em 10 e vá até 0 usando um loop while.Mostre cada número.
 
-```let contador = 10;
+```
+let contador = 10;
 
 while (contador >= 0) {
     console.log(contador);
@@ -22,7 +24,8 @@ while (contador >= 0) {
 
 
 3) Crie um programa de contagem regressiva.Peça um número e conte deste número até 0, usando um loop while no console do navegador.
-```let contagem = prompt("Digite o número para contagem regressiva");
+```
+let contagem = prompt("Digite o número para contagem regressiva");
 
 while (contagem >= 0){
     console.log(contagem);
@@ -31,7 +34,8 @@ while (contagem >= 0){
 ```
 
 4) Crie um programa de contagem progressiva.Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
-```let numeroMax = prompt("Digite o número para contagem regressiva");
+```
+let numeroMax = prompt("Digite o número para contagem regressiva");
 let contagem = 0;
 
 while (contagem <= numeroMax){
@@ -39,7 +43,7 @@ while (contagem <= numeroMax){
     contagem++;
 }
 ```
-Desafios finais
+# Desafios finais
 
 1) Crie um programa que utilize o console.log para exibir uma mensagem de boas-vindas.
 ```
@@ -93,13 +97,54 @@ console.log("Menor de idade")
 ```
 
 11) Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, negativo ou zero. Use if-else para imprimir a respectiva mensagem.
+```
+var numero = prompt("Digite um número:");
+if (numero > 0) {
+  console.log("O número é positivo.");
+} else if (numero < 0) {
+  console.log("O número é negativo.");
+} else {
+  console.log("O número é zero.");
+}
+```
 
 12) Use um loop while para imprimir os números de 1 a 10 no console.
+```
+var num = 1;
+
+while(num <= 10){
+  console.log(num)
+  num++;
+}
+```
 
 13) Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
 
+```
+var nota = 8;
+
+if(nota >= 7){
+console.log("Aprovado")
+}
+else if(nota < 7){
+console.log("Reprovado")
+}
+```
+
 14) Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
+```
+let numeroAleatorio = Math.random();
+console.log("Número aleatório:", numeroAleatorio);
+```
 
 15) Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
+```
+let numeroInteiroAleatorio = Math.floor(Math.random() * 10) + 1;
+console.log("Número inteiro aleatório entre 1 e 10:", numeroInteiroAleatorio); 
+```
 
 16) Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.
+```
+let numeroInteiroAleatorio = Math.floor(Math.random() * 1000) + 1;
+console.log("Número inteiro aleatório entre 1 e 10:", numeroInteiroAleatorio);
+```
